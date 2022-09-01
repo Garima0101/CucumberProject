@@ -18,9 +18,11 @@ public class BackgroundColorClass {
 	WebElement WhiteBackground_Element;
 
 	public void clickSkyBlueBlackgroundButton() {
-		SkyBlueBackground_Element.click();
+		// SkyBlueBackground_Element.click();
 		try {
-			Thread.sleep(3000);
+
+			Thread.sleep(1000);
+			SkyBlueBackground_Element.click();
 
 		} catch (InterruptedException e) {
 			System.out.println(SkyBlueBackground_Element);
@@ -33,8 +35,9 @@ public class BackgroundColorClass {
 //		WhiteBackground_Element.click();
 
 		try {
+
+			Thread.sleep(1000);
 			WhiteBackground_Element.click();
-			Thread.sleep(3000);
 
 		} catch (InterruptedException e) {
 			System.out.println(WhiteBackground_Element);
